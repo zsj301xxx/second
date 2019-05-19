@@ -1,0 +1,14 @@
+header{
+    height: 0.4rem;
+    padding: 0.24rem;
+    color: #4ebbfe;
+    display: flex;
+    justify-content: space-between;
+   
+}
+header span{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    font-weight: normal;
+    text-align: center;
+}

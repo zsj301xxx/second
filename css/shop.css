@@ -1,0 +1,166 @@
+.shopdao{
+    padding: 1.4rem 1.55rem 0.25rem 1.46rem;
+    background-color: #fbfeff;
+    box-shadow: 0 0.03rem 0.43rem rgba(41, 167, 255, 0.13)
+
+}
+.shopdao span{
+    padding: 0.17rem 0.4rem;
+    background-color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem rgba(59, 172, 254, 0.43);
+    border-radius: 0.26rem;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+}
+.shopdao span:nth-child(2){
+   background: rgba(59, 172, 254, 0.1);
+    color: #3bacfe;
+}
+.shopdao span:nth-child(3){
+    background: rgba(59, 172, 254, 0.1);
+    color: #3bacfe;
+}
+.shopdao span:nth-child(1){
+    margin-right: 0.2rem;
+}
+.shopdao span:nth-child(2){
+    margin-right: 0.2rem;
+}
+.shopdaoimg {
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.08rem;
+    padding-left: 0.25rem;
+    padding-right: 0.23rem;
+    box-sizing: border-box;
+}
+.shopcon ul{
+     display: block;
+     width: 100%;
+     box-sizing: border-box;
+     padding-right: 0.22rem;
+     padding-left: 0.22rem;
+    padding-bottom: 1rem;
+}
+.shopcon ul li{
+    margin-bottom: 0.3rem;
+}
+.shopconleft{
+    width: 1.97rem;
+    height: 1.97rem;
+    float: left;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 0.01rem 0.21rem rgba(223, 223, 223, 0.43);
+    border-radius: 10px;
+    position: relative;
+    margin-right: 0.25rem;
+    z-index: 5;
+}
+.shopconleft img{
+    width: 1.2rem;
+    height: 1.44rem;
+    position: absolute;
+    left: 0.4rem;
+    bottom: 0.3rem;
+}
+.shopconright div:nth-child(1){
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.shopconright div:nth-child(2){
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.32rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+    padding-top: 0.15rem;
+    padding-bottom: 0.17rem;
+    border-bottom: 0.01rem solid #d8dfe3;
+}
+.shopconright span:nth-child(3){
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+    position: relative;
+}
+.shopconright span:nth-child(3):before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem  rgba(68, 181, 255, 0.43);
+    border-radius: 50%;
+    position: absolute;
+    left: -0.1rem;
+    bottom: 0.1rem;
+}
+.shopconright span:nth-child(3) span{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #36a8fe;
+    margin-right: 0.5rem;
+}
+.shopconright span:nth-child(4){
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+    position: relative;
+}
+.shopconright span:nth-child(4):before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #36d681;
+    box-shadow: 0 0.02rem 0.05rem  rgba(54, 214, 129, 0.43);
+    border-radius: 50%;
+    position: absolute;
+    left: -0.1rem;
+    bottom: 0.1rem;
+}
+.shopconright span:nth-child(4) span{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #36a8fe;
+    margin-right: 1.2rem;
+}
+.shopconright span:nth-child(5){
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #fbb548;
+}
+.shopconright div:nth-child(6){
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #cfcfcf;
+    padding-top: 0.2rem;
+    overflow: hidden;
+}
+.shopconright div:nth-child(6) div{
+    width: 0.3rem;
+    height: 0.3rem;
+    float: left;
+}

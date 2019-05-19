@@ -1,0 +1,101 @@
+header{
+    height: 0.4rem;
+    padding: 0.24rem;
+
+}
+header p{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    font-weight: normal;
+    text-align: center;
+}
+
+.search{
+    height: 0.6rem;
+    padding: 0.17rem 0.2rem;
+}
+.search p{
+    font-size: 0.28rem;
+    color: #36a8fe;
+    font-weight: normal;
+    float: left;
+    padding: 0.16rem;
+}
+.search a {
+    width: 5.9rem;
+    height: 0.6rem;
+
+    float: right;
+    border-radius: 0.3rem;
+    border: 0.01rem solid #36a8fe;
+}
+.carousel{
+    width: 7.49rem;
+    height: 3.07rem;
+
+}
+.function{
+    padding: 0.22rem;
+    height: 6.9rem;
+
+  justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+}
+.function li{
+    width: 2.35rem;
+    height: 1.94rem;
+
+
+}
+.function li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.function li a div{
+    width: 1.13rem;
+    height: 1.13rem;
+   margin-left: 0.6rem;
+}
+.function li p{
+
+    height: 0.23rem;
+    color: #8e9397;
+    font-size: 0.24rem;
+    font-weight: normal;
+   margin-top: 0.2rem;
+   text-align: center;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0rem;
+    width: 100%;
+    height: 0.98rem;
+    padding: 0 0.22rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    z-index: 8;
+    background-color: #f1f9ff;
+}
+footer a{
+    width: 0.7rem;
+    height: 100%;
+    font-size: 0.24rem;
+    color:#9ddcff;
+    opacity: 0.5;
+}
+.op{
+    opacity:1;
+}
+footer a img{
+    width: 0.5rem;
+    height: 0.5rem;
+    padding-bottom: 0.1rem;
+}
