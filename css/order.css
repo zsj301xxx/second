@@ -1,0 +1,198 @@
+*{padding:0; margin:0;}
+a{ text-decoration:none; color:black;}
+a:hover{text-decoration:none; color:#336699;}
+#tab{ padding-top:1rem;margin:0.2rem;}
+#tab>ul{
+    list-style:none;
+    display:block;
+    height:0.8rem;
+    line-height:0.3rem;
+    border-bottom:0.02rem  solid  #a2deff;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+}
+#tab>ul>li{
+    background:#FFF;
+    width: 1.36rem;
+    height: 100%;
+    cursor:pointer;
+    float:left;
+    list-style:none ;
+    text-align: center;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.8rem;
+    color: #8a8c8d;
+    opacity: 0.4;
+}
+#tab>ul>li.on{
+    border-bottom:4px solid#36a8fe;
+    opacity:1;
+    }
+#tab>div{
+    line-height:24px;
+    border-top:none;
+    padding:0.3rem;
+}
+.hide {
+    display:none;
+}
+.ordershop {
+    width: 1.97rem;
+    height: 1.97rem;
+    float: left;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 0.01rem 0.21rem rgba(223, 223, 223, 0.43);
+    border-radius: 10px;
+    position: relative;
+    margin-right: 0.25rem;
+    z-index: 5;
+}
+.ordershop img{
+    width: 1.2rem;
+    height: 1.44rem;
+    position: absolute;
+    left: 0.4rem;
+    bottom: 0.3rem;
+}
+.ordershopn>div{
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.ordershopn span:nth-child(2){
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #36a8fe;
+    position: relative;
+    margin-left: 0.2rem;
+}
+.ordershopn span:nth-child(2):before{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem  rgba(68, 181, 255, 0.43);
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    left: -0.15rem;
+    bottom: 0.13rem;
+}
+.ordershopn span:nth-child(4){
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+    position: relative;
+    margin-left: 0.2rem;
+}
+.ordershopn span:nth-child(4):before{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem  rgba(68, 181, 255, 0.42);
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    left: -0.15rem;
+    bottom: 0.13rem;
+}
+.ordershopn span:nth-child(6){
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #8a8c8d;
+    position: relative;
+    margin-left: 0.2rem;
+    margin-right: 2.3rem;
+    margin-top: 0.8rem;
+}
+.ordershopn span:nth-child(6):before{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem  rgba(68, 181, 255, 0.43);
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    left: -0.15rem;
+    bottom: 0.13rem;
+}
+.ordershopn span:nth-child(7){
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #8a8c8d;
+    position: relative;
+    margin-left: 0.2rem;
+}
+.ordershopn span:nth-child(7):before{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #31d69a;
+    box-shadow: 0 0.02rem 0.05rem  rgba(68, 181, 255, 0.43);
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    left: -0.15rem;
+    bottom: 0.13rem;
+}
+.ordershopn span:nth-child(9){
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #fbb548;
+    margin-left: 2.3rem;
+}
+.ordershopn span:nth-child(11){
+    display: block;
+    float: left;
+    width: 1.96rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    box-shadow: 0rem 0.04rem 0.02rem rgba(55, 223, 116, 0.75);
+rgba(55, 223, 116, 0.75);
+    text-align: center;
+}
+.ordershopn span:nth-child(11) span{
+    color: white;
+    line-height: 0.6rem;
+    text-align: center;
+}
+.ordershopn span:nth-child(10){
+    display: block;
+    float: left;
+    width: 1.96rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background-color: rgba(59, 172, 254, 0.1);
+
+   margin-left: 2rem;
+    margin-right: 0.5rem;
+    text-align: center;
+}
+.ordershopn span:nth-child(10) span{
+    color: #3bacfe;
+    line-height: 0.6rem;
+    text-align: center;
+}
+
