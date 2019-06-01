@@ -1,0 +1,100 @@
+.paynum{
+    margin-top: 1rem;
+   margin-right: 0.24rem;
+   margin-left: 0.24rem;
+    height: 1.85rem;
+    border-bottom: 0.01rem solid  rgba(0,0,0,0.1);
+}
+.paynum >span{
+    display: block;
+    margin-left: 2.2rem;
+    margin-top: 0.93rem;
+    padding-top: 0.93rem;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+    color: #4f5b64;
+}
+.paynum >span span{
+    font-size: 0.38rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #32d796;
+    position: relative;
+}
+.paynum span:before{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #31d69a;
+    box-shadow: 0 0.02rem 0.05rem  rgba(68, 181, 255, 0.43);
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    left: -1.1rem;
+    bottom: 0.17rem;
+}
+.paynum span:after{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #31d69a;
+    box-shadow: 0 0.02rem 0.05rem  rgba(68, 181, 255, 0.43);
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    left: 1.6rem;
+    bottom: 0.17rem;
+}
+.payon{
+   overflow: hidden;
+}
+.payon img{
+   width: 1.06rem;
+    height: 1.06rem;
+    float: left;
+}
+.payyy{
+
+    float: left;
+    overflow: hidden;
+    margin-top: 0.3rem;
+}
+.payyy >span:nth-child(1){
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.54rem;
+    letter-spacing: 0.01rem;
+    color: #47505f;
+    padding-top: 0.7rem;
+    padding-left: 0.3rem;
+    padding-right: 2rem;
+}
+.payyy >span:nth-child(2){
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.7;
+    padding-right: 0.3rem;
+}
+.payyy >span:nth-child(2) span{
+    font-size: 0.38rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+    color: #ff7370;
+}
+.payyy >div:nth-child(3) {
+    width: 0.07rem;
+    height: 0.07rem;
+    border: 0.18rem solid #dddddd;
+     background-color: #dddddd;
+    border-radius: 50%;
+    float: right;
+}
